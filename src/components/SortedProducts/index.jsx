@@ -8,13 +8,13 @@ export default function SortedProducts({ onChangeInputs }) {
 
       <select
         className={styles.sorted}
-        data-cy='sort-type'
+        data-cy='sort - type'
         name='sortType'
         onInput={onChangeInputs}
       >
         <option value='default'>By default</option>
         <option value='title'>By title A-Z</option>
-        <option nvalue='titleReverse'>By title Z-A </option>
+        <option value='titleReverse'>By title Z-A </option>
         <option value='priceAscending'>By price ascending</option>
         <option value='priceDescending'>By price descending</option>
       </select>

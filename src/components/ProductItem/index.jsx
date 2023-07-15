@@ -26,7 +26,7 @@ export default function ProductItem({
       ) : (
         <div className={styles.productItem}>
           <Link to={`/products/${id}`}>
-            <div data-cy={`product ${id}`} data-testid='product-item'>
+            <div data-cy={`product ${id}`} data-testid="product - item">
               <img src={`http://localhost:3333${image}`} alt={title}></img>
               <div className={styles.priseString}>
                 <h4 data-cy='productPrice'>{realPrice} $</h4>

@@ -29,7 +29,7 @@ export default function ProductsOfCategoryContainer() {
     dispatch(getCategories);
   }, []);
 
-  const title = categoryTitlies?.find((el) => el.id === categoryId)?.title;
+  const title = categoryTitlies?.find((el) => el.id == categoryId)?.title;
 
   const onFiltersChange = (filters) => {
     setFilters(filters);
