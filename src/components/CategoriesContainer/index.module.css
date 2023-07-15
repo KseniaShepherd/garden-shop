@@ -1,0 +1,19 @@
+.categoriesContainer h1 {
+  margin: 80px auto;
+  width: 1440px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.categories {
+  margin: 50px auto;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 58px;
+  row-gap: 58px;
+}

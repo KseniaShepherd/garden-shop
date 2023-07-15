@@ -1,0 +1,125 @@
+.description {
+  display: grid;
+  width: 1340px;
+  height: 717px;
+  margin: 35px auto;
+  grid-template-areas:
+    'img priseString'
+    'img  button'
+    'img  wordDesc'
+    'img  descr';
+  grid-template-rows: 15% 15% 5% 65%;
+  grid-template-columns: 60% 40%;
+  gap: 70px;
+}
+
+.description img {
+  grid-area: img;
+  width: 825px;
+  height: 710px;
+}
+
+.priseString {
+  grid-area: priseString;
+  display: flex;
+  flex-direction: row;
+  width: 445px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.realPrice {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  padding: 0;
+}
+.oldPrice {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: line-through;
+  color: #8b8b8b;
+  padding: 0;
+}
+.oldPriceinActive {
+  visibility: hidden;
+}
+.discountPercentage {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #ff32a1;
+  padding: 0;
+}
+.discountPercentageinActive {
+  visibility: hidden;
+}
+.toCartBtn {
+  grid-area: button;
+  width: 341px;
+  height: 86px;
+  left: 925px;
+  top: 504px;
+  background: #339933;
+  border: 2px solid #339933;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.toCartBtn:active {
+  transform: scale(0.96);
+}
+.wordDesc {
+  grid-area: wordDesc;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  border-top: 1px dashed #c0c0c0;
+  padding: 25px 0;
+}
+.descr {
+  grid-area: descr;
+  width: 445px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.productsTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #3a3a3a;
+  width: 1440px;
+  margin: auto;
+}
+
+.productDescriptionItem {
+  margin-bottom: 187px;
+}

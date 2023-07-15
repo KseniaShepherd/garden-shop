@@ -1,0 +1,20 @@
+.saleProducts {
+  margin: auto;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-content: center;
+  row-gap: 58px;
+  column-gap: 80px;
+}
+.saleProductsContainer h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 90px auto;
+  width: 1440px;
+}

@@ -1,0 +1,25 @@
+.discountedFilter {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+}
+.discountedFilter span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.discountedFilter input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  appearance: none;
+}
+
+.discountedFilter input:checked {
+  background-color: #339933;
+}

@@ -1,0 +1,53 @@
+.header {
+  display: grid;
+  grid-template-columns: 290px 590px 330px 230px;
+  align-items: center;
+  width: 1440px;
+  margin: 20px auto;
+}
+.logoAndCatalog {
+  grid-column: 1/2;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: start;
+}
+.logoAndCatalog a {
+  text-decoration: none;
+  width: 125px;
+  height: 49px;
+  padding: 14px 30px 15px;
+  background: #339933;
+  border: 2px solid #339933;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.logoAndCatalog img {
+  width: 72px;
+  height: 72px;
+}
+.nav {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+.nav a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+}
+.cartImg {
+  grid-column: 4/5;
+  display: flex;
+  justify-content: end;
+}

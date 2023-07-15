@@ -1,0 +1,31 @@
+.formPriceFilter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.formPriceFilter input {
+  width: 103px;
+  height: 42px;
+  left: 102px;
+  top: 303px;
+
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #acacac;
+  padding: 10px;
+}
+.formPriceFilter p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}

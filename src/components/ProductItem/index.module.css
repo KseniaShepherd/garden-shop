@@ -1,0 +1,91 @@
+.productItem {
+  position: relative;
+  width: 300px;
+  height: 366px;
+}
+.productItem a {
+  text-decoration: none;
+}
+.productItem img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.productsTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #3a3a3a;
+  margin: 0 10px;
+}
+.priseString {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  align-items: center;
+  margin: 20px 10px 10px;
+}
+.priseString h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.oldPrice {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-decoration-line: line-through;
+  color: #8b8b8b;
+}
+.oldPriceinActive {
+  visibility: hidden;
+}
+.discountPercentage {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #ff32a1;
+}
+
+.discountPercentageinActive {
+  visibility: hidden;
+}
+.addBtn {
+  position: absolute;
+  bottom: 100px;
+  visibility: hidden;
+  width: 279px;
+  height: 72px;
+  background: #f1fff1;
+  border: 2px solid #339933;
+  border-radius: 21px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #339933;
+  justify-content: center;
+}
+.addBtn:active {
+  transform: scale(0.96);
+}
+.productItem:hover .addBtn {
+  visibility: visible;
+}
